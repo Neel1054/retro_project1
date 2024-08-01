@@ -5,11 +5,18 @@ This project uses AI classification, to try to determine the dog breed of a dog 
 
 ## The Algorithm
 
-This project uses transfer learning. This basically uses an already trained model, and re-trains it for a specific dataset. How the training works is the model learns through errors in its predictions, and increases its accuracy as it learns. Through doing this, as it trains, it gets better at recognizing different dog breeds. To run it, it takes a sample image given, and determines what dog breed it thinks it is, along with how accurate it thinks it's prediction is.  
+This project uses transfer learning. This basically uses an already trained model, and re-trains it for a specific dataset. How the training works is the model learns through errors in its predictions, and increases its accuracy as it learns. Through doing this, as it trains, it gets better at recognizing different dog breeds. To run it, it takes a sample image given, and determines what dog breed it thinks it is, along with how accurate it thinks it's prediction is. 
 
 ## Running this project
 
-1. Add steps for running this project.
-2. Make sure to include any required libraries that need to be installed for your project to run.
+1. First download the file visit this :https://colab.research.google.com/drive/1_7BYxN2YPOPBSq5n6RcIchLFSPZFiy1E?usp=sharing
+2. You can run cell blocks by clicking the underlined button <img width="719" alt="Screenshot 2024-08-01 at 3 26 20 PM" src="https://github.com/user-attachments/assets/194e0868-3628-4e68-9459-c178baf0b9e5">
+3. Run the first 5 cells this way
+4. It will ask you for permission, give it permission to your google drive
+5. The next cell block will train the model.
+5.<img width="719" alt="Screenshot 2024-08-01 at 3 26 20 PM" src="https://github.com/user-attachments/assets/8cf407f6-0f0f-4da2-add6-9e512830fd37">
+6. The underlined number controls how long it runs. The larger the number, the longer it takes. A larger number will also increase the accuracy of the model. You may modify this as you prefer, but it is not reccomended to increase it too large, as the model won't gain much extra accuracy at very high numbers.
+7. 
 
 [View a video explanation here](video link)
+Numbers Project or Thumbs Up (From Jupyter Collab), Project Worksheet, Any Jetson Inference Project, Final Project Rough Draft, Final Project, Optional: Demo Gist

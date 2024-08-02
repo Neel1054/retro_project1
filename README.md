@@ -30,16 +30,16 @@ This project uses transfer learning. This basically uses an already trained mode
 16. Label it "Dog Classification", or anything else you want
 17. <img width="1470" alt="Screenshot 2024-08-02 at 12 19 18 PM" src="https://github.com/user-attachments/assets/ae47822e-e8ae-4a0b-8992-2e3b1c83716e">
 18. Go to your finder, and find the resnet18 you downloaded, as well as the labels.txt
-19. As shown in the video, drag and drop them into the folder you made
-20. Now create a new file inside that folder by right clicking on the folder name-new file. Label it something that makes sense. This is where the code to run it will go
-21. Paste this code inside the new file created: https://docs.google.com/document/d/1TaTkfUd3BuNPbMordSEvcTEgpwrOogCkp6z1_k2JJao/edit?usp=sharing
-22. Now go into your macbook terminal
-23. Now cd into your folder-do so by typing in cd (your folder name)
-24. If your folder is in another folder, you will need to cd into that first.
-25. Now to select an image of a dog, drag and drop a dog picture into the folder (the same way you dragged and dropped the labels.txt and resnet18 into the folder)
-26. Rename the image to something that makes sense (eg dog_picture.jpg)
-27. Make sure your still the in the correct directory, and run the command python3 (the filename where you code is) (the filename of the dog picture) for example python3 my_code.py dog_picture.jpg
-28. This will run the program, and the AI will tell you in the terminal what breed it thinks the dog is, along with how sure it is
-29. https://drive.google.com/file/d/1ky4nMr2Cr9EF-QLFWNx_M90sjnaai7ea/view?usp=sharing)
+20. Drag and drop the two files into the folder you created 
+21. Now create a new file inside that folder by right clicking on the folder name-new file. Label it something that makes sense. This is where the code to run it will go
+22. Paste this code inside the new file created: https://docs.google.com/document/d/1TaTkfUd3BuNPbMordSEvcTEgpwrOogCkp6z1_k2JJao/edit?usp=sharing
+23. Now go into your macbook terminal
+24. Now cd into your folder-do so by typing in cd (your folder name)
+25. If your folder is in another folder, you will need to cd into that first.
+26. Now to select an image of a dog, drag and drop a dog picture into the folder (the same way you dragged and dropped the labels.txt and resnet18 into the folder)
+27. Rename the image to something that makes sense (eg dog_picture.jpg)
+28. Make sure your still the in the correct directory, and run the command python3 (the filename where you code is) (the filename of the dog picture) for example python3 my_code.py dog_picture.jpg
+29. This will run the program, and the AI will tell you in the terminal what breed it thinks the dog is, along with how sure it is
+30. https://drive.google.com/file/d/1ky4nMr2Cr9EF-QLFWNx_M90sjnaai7ea/view?usp=sharing)
 
-Numbers Project or Thumbs Up (From Jupyter Collab), Project Worksheet, Any Jetson Inference Project, Final Project Rough Draft, Final Project, Optional: Demo Gist
+

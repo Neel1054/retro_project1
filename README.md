@@ -1,7 +1,9 @@
 # Dog Breeds
 This project uses AI classification, to try to determine the dog breed of a dog in an image. It has the 11 most popular dog breeds. You use a picture of a dog, then the AI will tell you what breed it thinks it is, along with how sure it is. This can be useful to owners of strays, to figure out what breed their dog is. They can use this information to find out more about their dog's expected size, health risks, personality traits, and more.
 
-![add image descrition here](direct image link here)
+<img width="509" alt="Screenshot 2024-08-02 at 12 49 06 PM" src="https://github.com/user-attachments/assets/23340ff7-867f-4743-a175-316abd8e9d20">
+<img width="798" alt="Screenshot 2024-08-02 at 12 49 00 PM" src="https://github.com/user-attachments/assets/4999b9ce-5580-4415-97bd-e006c23da3fb">
+The AI believes the dog is a beagle, and it is 25.5% sure, meaning it thinks theres a 1/4 chance it is right.
 
 ## The Algorithm
 
@@ -36,7 +38,7 @@ This project uses transfer learning. This basically uses an already trained mode
 24. If your folder is in another folder, you will need to cd into that first.
 25. Now to select an image of a dog, drag and drop a dog picture into the folder (the same way you dragged and dropped the labels.txt and resnet18 into the folder)
 26. Rename the image to something that makes sense (eg dog_picture.jpg)
-27. Make sure your still the in the correct directory, and run the command Python3 (the filename where you code is) (the filename of the dog picture) for example Python3 my_code.py dog_picture.jpg
+27. Make sure your still the in the correct directory, and run the command python3 (the filename where you code is) (the filename of the dog picture) for example python3 my_code.py dog_picture.jpg
 28. This will run the program, and the AI will tell you in the terminal what breed it thinks the dog is, along with how sure it is
 29. https://drive.google.com/file/d/1ky4nMr2Cr9EF-QLFWNx_M90sjnaai7ea/view?usp=sharing)
 
